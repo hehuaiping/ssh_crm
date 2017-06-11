@@ -1,0 +1,5 @@
+/.struts.mex
+/applicationContext.xml
+/db.properties
+/hibernate.cfg.xml.bak
+/struts.xml

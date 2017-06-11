@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="crm" location="358,165" size="525,980">
+    <action name="UserAction_*" location="310,71" size="150,83">
+      <result name="toHome">
+        <resourceEdge source="toHome" routing="0" target="index.htm" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="login.jsp" />
+      </result>
+      <result name="regist">
+        <resourceEdge source="regist" routing="0" target="regist.jsp" />
+      </result>
+    </action>
+    <action name="CustomerAction_*" location="310,421" size="150,83">
+      <result name="edit">
+        <resourceEdge source="edit" routing="0" target="add.jsp" />
+      </result>
+      <result name="list">
+        <resourceEdge source="list" routing="0" target="list.jsp" />
+      </result>
+      <result name="toList" />
+    </action>
+    <action name="BaseDictAction" location="310,583" size="150,40" />
+    <action name="LinkManAction_*" location="310,691" size="150,104">
+      <result name="add">
+        <resourceEdge source="add" routing="0" target="add.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="list.jsp" />
+      </result>
+      <result name="toList" />
+      <result name="list">
+        <resourceEdge source="list" routing="0" target="list.jsp" />
+      </result>
+    </action>
+    <action name="SaleVisitAction_*" location="65,841" size="150,83">
+      <result name="toList" />
+      <result name="list">
+        <resourceEdge source="list" routing="0" target="list.jsp" />
+      </result>
+      <result name="add">
+        <resourceEdge source="add" routing="0" target="add.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="index.htm" path="/index.htm" location="938,220" size="150,55" />
+  <webResource name="login.jsp" path="/login.jsp" location="693,10" size="150,55" />
+  <webResource name="regist.jsp" path="/regist.jsp" location="203,220" size="150,55" />
+  <webResource name="add.jsp" path="/jsp/customer/add.jsp" location="946,570" size="150,55" />
+  <webResource name="list.jsp" path="/jsp/customer/list.jsp" location="950,395" size="150,55" />
+  <webResource name="add.jsp" path="/jsp/linkman/add.jsp" location="951,850" size="150,55" />
+  <webResource name="list.jsp" path="/jsp/linkman/list.jsp" location="9,850" size="150,55" />
+  <webResource name="list.jsp" path="/jsp/salevisit/list.jsp" location="184,990" size="150,55" />
+  <webResource name="add.jsp" path="/jsp/salevisit/add.jsp" location="426,1200" size="150,55" />
+</Struts2Diagram>
+
